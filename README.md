@@ -125,11 +125,12 @@ See [examples](https://github.com/h2non/gock/tree/master/_examples) directory fo
 package test
 
 import (
-  "github.com/nbio/st"
-  "github.com/h2non/gock"
   "io/ioutil"
   "net/http"
   "testing"
+
+  "github.com/nbio/st"
+  "github.com/h2non/gock"
 )
 
 func TestSimple(t *testing.T) {
@@ -349,7 +350,7 @@ import (
 	"bytes"
 	"net/http"
 	
-  "gopkg.in/h2non/gock.v1"
+  "github.com/h2non/gock"
 )
 
 func main() {
