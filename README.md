@@ -29,7 +29,7 @@ To get started, take a look to the [examples](#examples).
 ## Installation
 
 ```bash
-go get -u gopkg.in/h2non/gock.v1
+go get -u github.com/h2non/gock
 ```
 
 ## API
@@ -126,7 +126,7 @@ package test
 
 import (
   "github.com/nbio/st"
-  "gopkg.in/h2non/gock.v1"
+  "github.com/h2non/gock"
   "io/ioutil"
   "net/http"
   "testing"
@@ -158,11 +158,12 @@ func TestSimple(t *testing.T) {
 package test
 
 import (
-  "github.com/nbio/st"
-  "gopkg.in/h2non/gock.v1"
   "io/ioutil"
   "net/http"
   "testing"
+
+  "github.com/nbio/st"
+  "github.com/h2non/gock"
 )
 
 func TestMatchHeaders(t *testing.T) {
@@ -197,11 +198,12 @@ func TestMatchHeaders(t *testing.T) {
 package test
 
 import (
-  "github.com/nbio/st"
-  "gopkg.in/h2non/gock.v1"
   "io/ioutil"
   "net/http"
   "testing"
+
+  "github.com/nbio/st"
+  "github.com/h2non/gock"
 )
 
 func TestMatchParams(t *testing.T) {
@@ -233,11 +235,12 @@ package test
 
 import (
   "bytes"
-  "github.com/nbio/st"
-  "gopkg.in/h2non/gock.v1"
   "io/ioutil"
   "net/http"
   "testing"
+	
+	"github.com/nbio/st"
+  "github.com/h2non/gock"
 )
 
 func TestMockSimple(t *testing.T) {
@@ -269,11 +272,12 @@ func TestMockSimple(t *testing.T) {
 package test
 
 import (
-  "github.com/nbio/st"
-  "gopkg.in/h2non/gock.v1"
   "io/ioutil"
   "net/http"
   "testing"
+
+  "github.com/nbio/st"
+  "github.com/h2non/gock"
 )
 
 func TestClient(t *testing.T) {
@@ -305,9 +309,10 @@ package main
 
 import (
   "fmt"
-  "gopkg.in/h2non/gock.v1"
   "io/ioutil"
   "net/http"
+
+  "github.com/h2non/gock"
 )
 
 func main() {
@@ -342,8 +347,9 @@ package main
 
 import (
 	"bytes"
-	"gopkg.in/h2non/gock.v1"
 	"net/http"
+	
+  "gopkg.in/h2non/gock.v1"
 )
 
 func main() {
