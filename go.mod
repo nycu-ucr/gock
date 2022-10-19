@@ -1,4 +1,4 @@
-module gopkg.in/h2non/gock.v1
+module github.com/h2non/gock
 
 go 1.13
 
