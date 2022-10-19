@@ -1,3 +1,7 @@
+## v1.2.0 / 2022-10-19
+
+  * refactor(package): import path changed to github.com/h2non/gock
+
 ## v1.1.2 / 2021-08-03
 
   * fix(mock): fix race condition in mock.go file (#92)
