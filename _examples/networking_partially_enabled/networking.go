@@ -9,7 +9,7 @@ import (
 	"net/http"
 	"net/http/httptest"
 
-	"gopkg.in/h2non/gock.v1"
+	"github.com/h2non/gock"
 )
 
 // Starts a local HTTP server in background
