@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"errors"
 	"io"
-	"net/http"
+	"github.com/nycu-ucr/gonet/http"
 	"testing"
 	"time"
 

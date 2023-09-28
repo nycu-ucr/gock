@@ -1,6 +1,6 @@
 package gock
 
-import "net/http"
+import "github.com/nycu-ucr/gonet/http"
 
 // MatchersHeader exposes an slice of HTTP header specific mock matchers.
 var MatchersHeader = []MatchFunc{

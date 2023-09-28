@@ -4,7 +4,7 @@ import (
 	"github.com/nbio/st"
 	"github.com/h2non/gock"
 	"io/ioutil"
-	"net/http"
+	"github.com/nycu-ucr/gonet/http"
 	"testing"
 )
 

@@ -2,7 +2,7 @@ package gock
 
 import (
 	"fmt"
-	"net/http"
+	"github.com/nycu-ucr/gonet/http"
 	"net/http/httptest"
 	"net/url"
 	"testing"

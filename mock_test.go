@@ -1,7 +1,7 @@
 package gock
 
 import (
-	"net/http"
+	"github.com/nycu-ucr/gonet/http"
 	"testing"
 
 	"github.com/nbio/st"

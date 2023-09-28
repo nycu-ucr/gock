@@ -3,7 +3,7 @@ package main
 import (
 	"bytes"
 	"github.com/h2non/gock"
-	"net/http"
+	"github.com/nycu-ucr/gonet/http"
 )
 
 func main() {

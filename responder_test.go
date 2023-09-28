@@ -5,7 +5,7 @@ import (
 	"errors"
 	"io"
 	"io/ioutil"
-	"net/http"
+	"github.com/nycu-ucr/gonet/http"
 	"strings"
 	"testing"
 	"time"

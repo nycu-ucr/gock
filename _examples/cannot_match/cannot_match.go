@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"net/http"
+	"github.com/nycu-ucr/gonet/http"
 
 	"github.com/h2non/gock"
 )

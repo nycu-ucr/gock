@@ -126,7 +126,7 @@ package test
 
 import (
   "io/ioutil"
-  "net/http"
+  "github.com/nycu-ucr/gonet/http"
   "testing"
 
   "github.com/nbio/st"
@@ -160,7 +160,7 @@ package test
 
 import (
   "io/ioutil"
-  "net/http"
+  "github.com/nycu-ucr/gonet/http"
   "testing"
 
   "github.com/nbio/st"
@@ -200,7 +200,7 @@ package test
 
 import (
   "io/ioutil"
-  "net/http"
+  "github.com/nycu-ucr/gonet/http"
   "testing"
 
   "github.com/nbio/st"
@@ -237,7 +237,7 @@ package test
 import (
   "bytes"
   "io/ioutil"
-  "net/http"
+  "github.com/nycu-ucr/gonet/http"
   "testing"
 	
 	"github.com/nbio/st"
@@ -274,7 +274,7 @@ package test
 
 import (
   "io/ioutil"
-  "net/http"
+  "github.com/nycu-ucr/gonet/http"
   "testing"
 
   "github.com/nbio/st"
@@ -311,7 +311,7 @@ package main
 import (
   "fmt"
   "io/ioutil"
-  "net/http"
+  "github.com/nycu-ucr/gonet/http"
 
   "github.com/h2non/gock"
 )
@@ -348,7 +348,7 @@ package main
 
 import (
 	"bytes"
-	"net/http"
+	"github.com/nycu-ucr/gonet/http"
 	
   "github.com/h2non/gock"
 )

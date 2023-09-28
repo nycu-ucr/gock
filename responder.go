@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"io"
 	"io/ioutil"
-	"net/http"
+	"github.com/nycu-ucr/gonet/http"
 	"strconv"
 	"time"
 )

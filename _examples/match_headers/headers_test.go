@@ -2,7 +2,7 @@ package test
 
 import (
 	"io/ioutil"
-	"net/http"
+	"github.com/nycu-ucr/gonet/http"
 	"testing"
 
 	"github.com/nbio/st"

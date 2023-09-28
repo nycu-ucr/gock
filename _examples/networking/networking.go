@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 	"io/ioutil"
-	"net/http"
+	"github.com/nycu-ucr/gonet/http"
 
 	"github.com/h2non/gock"
 )

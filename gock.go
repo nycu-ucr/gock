@@ -2,8 +2,8 @@ package gock
 
 import (
 	"fmt"
-	"net/http"
-	"net/http/httputil"
+	"github.com/nycu-ucr/gonet/http"
+	"github.com/nycu-ucr/gonet/http/httputil"
 	"net/url"
 	"regexp"
 	"sync"

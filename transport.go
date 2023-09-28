@@ -2,7 +2,7 @@ package gock
 
 import (
 	"errors"
-	"net/http"
+	"github.com/nycu-ucr/gonet/http"
 	"sync"
 )
 
